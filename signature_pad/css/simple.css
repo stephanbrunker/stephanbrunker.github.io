@@ -1,0 +1,44 @@
+/* ============================== */
+/*      Other Styles              */
+/* ============================== */
+
+body { 
+	font-family:"Arial",arial,sans-serif;
+	font-size:12pt; 
+	background-color:#FFFFFF; 
+	color:#000000; 
+	margin: 20px; }
+	
+.github a { position: absolute;
+	top: 0; 
+	right: 0; 
+	border: 0; 
+	padding: 10px; 
+	background-color:yellow; }
+
+.main div { width:400px; } 
+
+
+
+/* ============================== */
+/*      SignaturePad Styles       */
+/* ============================== */
+
+	.signature-pad canvas {
+		width:400px;
+		height:150px;
+		border:1px solid FireBrick; }
+	
+	.signature-pad-footer {
+		position:relative;
+		margin-top:10px; }
+
+	.signature-pad-footer button {
+		position: absolute; }
+		
+	.signature-pad-footer button.right {
+		right: 0px; }
+		
+	.signature-pad-footer button.left {
+		left: 0px; }
+

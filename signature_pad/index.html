@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Signature Pad demo</title>
+	<link rel="stylesheet" type="text/css" href="css/simple.css">
+	<meta name="description" content="Signature Pad - HTML5 canvas based smooth signature drawing using variable width spline interpolation.">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+</head>
+<body>
+	
+	<div class="main">
+	<div class="github"> <a  href="https://github.com/stephanbrunker/signature_pad">Fork me on GitHub</a></div>	
+	<h3>Signature Pad Demo</h3>
+	
+
+	<div id='signature-pad' class='signature-pad'>
+	  <canvas>This browser doesn't support the canvas for the signaturepad.</canvas>
+	  <div class='signature-pad-footer' >
+		  <button class="left" id="save" type="button" >Save</button>
+		  <button class="right" id="clear" type="button" >Clear</button>
+	  </div>
+	</div>
+
+	<noscript><p>This site needs JavaScript to work properly</p></noscript>
+	<script src="js/signature_pad.js"></script>
+	<script src="js/app.js"></script>
+	</div>
+</body>
+</html>
